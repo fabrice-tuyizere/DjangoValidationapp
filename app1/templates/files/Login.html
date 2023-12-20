@@ -1,0 +1,39 @@
+{% load crispy_forms_tags %}
+<html>
+	<head>
+		<title>Create Person</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		/>
+	</head>
+	<body style="background-color: #dde6dc">
+		<div
+			class="container mt-5"
+			style="background-color: #acc2ab; padding: 5%; border-radius: 25px;margin-bottom:40px"
+		>
+			<div class="row">
+				<div class="col-12">
+					<div class="scrollable-div overflow-auto">
+						<!-- Your content goes here -->
+						<h2>Create Person</h2>
+						<form method="post" action="{% url 'create_person' %}">
+							{% csrf_token %} {{ form | crispy }}
+							{% comment %} <button type="submit">Submit</button> {% endcomment %}
+							<button type="submit" class="btn btn-secondary btn-lg">Register </button>
+							<a href="{% url 'create_vehicle'%}"> <button style="margin-left:20px" type="button" class="btn btn-secondary btn-lg">Create Vehicle</button></a>
+							
+						</form>
+						<!-- Add more content as needed -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
+
+

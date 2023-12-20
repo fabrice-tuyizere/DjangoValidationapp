@@ -1,0 +1,44 @@
+django.utils.autoreload INFO 2023-12-20 19:12:52,222 autoreload 8972 140162722897984 Watching for file changes with StatReloader
+django.server INFO 2023-12-20 19:13:03,502 basehttp 8972 140162671965888 "GET / HTTP/1.1" 200 14109
+django.server INFO 2023-12-20 19:14:13,106 basehttp 8972 140162663573184 "GET / HTTP/1.1" 200 14109
+django.utils.autoreload INFO 2023-12-20 19:15:02,087 autoreload 8972 140162722897984 /home/fabrice/Desktop/DjangoMainProject/DjangoValidationApp/DjangoValidationApp/settings.py changed, reloading.
+django.utils.autoreload INFO 2023-12-20 19:23:58,878 autoreload 9640 140194417188928 Watching for file changes with StatReloader
+django.server INFO 2023-12-20 19:24:46,352 basehttp 9640 140194366224064 "POST / HTTP/1.1" 200 14472
+django.server INFO 2023-12-20 19:25:22,173 basehttp 9640 140194366224064 "POST / HTTP/1.1" 200 808
+django.server INFO 2023-12-20 19:27:45,640 basehttp 9640 140194366224064 "GET /admin/easyaudit/loginevent/?o=-1 HTTP/1.1" 200 12995
+django.server INFO 2023-12-20 19:27:45,675 basehttp 9640 140194366224064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+django.server INFO 2023-12-20 19:27:48,050 basehttp 9640 140194366224064 "GET /admin/easyaudit/loginevent/?o=-1 HTTP/1.1" 200 12995
+django.server INFO 2023-12-20 19:27:48,076 basehttp 9640 140194366224064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+django.server INFO 2023-12-20 19:27:56,066 basehttp 9640 140194366224064 "GET /admin/easyaudit/crudevent/ HTTP/1.1" 200 15503
+django.server INFO 2023-12-20 19:27:56,097 basehttp 9640 140194366224064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+django.server INFO 2023-12-20 19:28:02,333 basehttp 9640 140194366224064 "GET /admin/easyaudit/loginevent/ HTTP/1.1" 200 12783
+django.server INFO 2023-12-20 19:28:02,368 basehttp 9640 140194366224064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+django.server INFO 2023-12-20 19:28:04,594 basehttp 9640 140194366224064 "GET /admin/easyaudit/requestevent/ HTTP/1.1" 200 33355
+django.server INFO 2023-12-20 19:28:04,626 basehttp 9640 140194366224064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+django.server INFO 2023-12-20 19:28:21,514 basehttp 9640 140194366224064 "GET /admin/easyaudit/requestevent/54/change/ HTTP/1.1" 200 13450
+django.server INFO 2023-12-20 19:28:21,592 basehttp 9640 140194366224064 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+django.server INFO 2023-12-20 19:28:21,629 basehttp 9640 140194357831360 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+django.server INFO 2023-12-20 19:28:21,675 basehttp 9640 140194366224064 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+django.server INFO 2023-12-20 19:28:21,734 basehttp 9640 140194366224064 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+django.server INFO 2023-12-20 19:28:21,872 basehttp 9640 140194366224064 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+django.server INFO 2023-12-20 19:28:31,402 basehttp 9640 140194366224064 "GET /admin/easyaudit/requestevent/ HTTP/1.1" 200 33355
+django.server INFO 2023-12-20 19:46:49,922 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14274
+django.server INFO 2023-12-20 19:48:11,583 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14300
+django.server INFO 2023-12-20 19:48:12,664 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14300
+django.server INFO 2023-12-20 19:48:27,918 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14299
+django.server INFO 2023-12-20 19:49:48,221 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14302
+django.server INFO 2023-12-20 19:49:53,848 basehttp 9640 140194366224064 "GET /createvehicle/ HTTP/1.1" 200 3011
+django.server INFO 2023-12-20 19:52:00,696 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14321
+django.server INFO 2023-12-20 19:52:19,854 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14321
+django.server INFO 2023-12-20 19:55:45,476 basehttp 9640 140194366224064 "GET / HTTP/1.1" 200 14322
+django.utils.autoreload INFO 2023-12-20 20:07:55,178 autoreload 9640 140194417188928 /home/fabrice/Desktop/DjangoMainProject/DjangoValidationApp/app1/models.py changed, reloading.
+django.utils.autoreload INFO 2023-12-20 20:07:55,945 autoreload 10708 140513835892800 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-12-20 20:07:59,399 autoreload 10708 140513835892800 /home/fabrice/Desktop/DjangoMainProject/DjangoValidationApp/app1/models.py changed, reloading.
+django.utils.autoreload INFO 2023-12-20 20:08:00,117 autoreload 10741 140570072535104 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-12-20 20:08:03,332 autoreload 10741 140570072535104 /home/fabrice/Desktop/DjangoMainProject/DjangoValidationApp/app1/models.py changed, reloading.
+django.utils.autoreload INFO 2023-12-20 20:08:03,922 autoreload 10764 140199188131904 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-12-20 20:10:48,645 autoreload 11211 139746978746432 Watching for file changes with StatReloader
+django.server INFO 2023-12-20 20:11:02,575 basehttp 11211 139746927777472 "GET / HTTP/1.1" 200 14322
+django.server INFO 2023-12-20 20:12:20,271 basehttp 11211 139746927777472 "POST / HTTP/1.1" 200 14573
+django.server INFO 2023-12-20 20:12:34,226 basehttp 11211 139746927777472 "POST / HTTP/1.1" 200 808
+django.server INFO 2023-12-20 20:12:43,354 basehttp 11211 139746927777472 "GET /createvehicle/ HTTP/1.1" 200 3106

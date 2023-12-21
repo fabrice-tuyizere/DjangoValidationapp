@@ -42,3 +42,10 @@ django.server INFO 2023-12-20 20:11:02,575 basehttp 11211 139746927777472 "GET /
 django.server INFO 2023-12-20 20:12:20,271 basehttp 11211 139746927777472 "POST / HTTP/1.1" 200 14573
 django.server INFO 2023-12-20 20:12:34,226 basehttp 11211 139746927777472 "POST / HTTP/1.1" 200 808
 django.server INFO 2023-12-20 20:12:43,354 basehttp 11211 139746927777472 "GET /createvehicle/ HTTP/1.1" 200 3106
+django.utils.autoreload INFO 2023-12-20 21:17:43,498 autoreload 15813 140390215303232 Watching for file changes with StatReloader
+django.utils.autoreload INFO 2023-12-20 21:18:03,693 autoreload 15921 140287177142336 Watching for file changes with StatReloader
+django.server ERROR 2023-12-20 21:18:08,939 basehttp 15921 140287053657792 "GET / HTTP/1.1" 500 59
+django.utils.autoreload INFO 2023-12-21 05:28:29,104 autoreload 4411 139639822557248 Watching for file changes with StatReloader
+django.server INFO 2023-12-21 05:29:35,679 basehttp 4411 139639771670208 "GET / HTTP/1.1" 200 14322
+django.request WARNING 2023-12-21 05:29:39,393 log 4411 139639771670208 Not Found: /favicon.ico
+django.server WARNING 2023-12-21 05:29:39,394 basehttp 4411 139639771670208 "GET /favicon.ico HTTP/1.1" 404 2755

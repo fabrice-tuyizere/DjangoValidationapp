@@ -22,18 +22,17 @@ class PersonForm(forms.ModelForm):
         fields = '__all__'
         widgets = {
             'date_of_birth': forms.DateInput(attrs={'type': 'date'}),
+            'reference_number': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Enter a number between 99 and 999'}),
+            'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Enter your UR email (Hint: username@ur.ac.rw)'}),
+            'phone': PhoneNumberPrefixWidget(attrs={'class': 'form-control'}),
         }
      
     email = forms.EmailField(validators=[validate_ur_ac_rw_email])
     phone = PhoneNumberField(widget=PhoneNumberPrefixWidget(attrs={'class': 'form-control'}))
-    # phone = PhoneNumberField(
-    # widget=PhoneNumberPrefixWidget(attrs={'class': 'form-control'}),
-    # default_region='RW',  # Set your default country code here
-    # validators=[],
-    # error_messages={
-    #     'invalid': 'Please enter a valid phone number with the country code.'
-    # }
-# ) 
+    reference_number = forms.IntegerField(
+    widget=forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Enter a number between 99 and 999'}),
+)
+ 
     
     
     def clean_reference_number(self):
@@ -67,7 +66,9 @@ class VehicleForm(forms.ModelForm):
     plate_number = forms.CharField(
         max_length=20,
         validators=[validate_plate_number],
-        widget=forms.TextInput(attrs={'class': 'form-control'})
+        # widget=forms.TextInput(attrs={'class': 'form-control'})
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Format RA###X, RNP###X, RDF###X, GR###X, or IT###X (e.g., RA123C)'}),
+
     )
     class Meta:
         model = Vehicle
